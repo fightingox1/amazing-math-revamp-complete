@@ -2,9 +2,6 @@
    <html>
 
      <head>
-     <title>Dashboard</title>
-     <link rel="icon" type="image/x-icon" href="https://du11hjcvx0uqb.cloudfront.net/dist/images/favicon-e10d657a73.ico">
-     <link rel="stylesheet" href="style.css">
      </head>
 
      <body>
@@ -255,7 +252,8 @@
          };
          play_game.style.cursor = 'pointer';
          play_game.onclick = function() {
-           window.location.href(game_url)
+         	 alert("play game pressed");
+           window.location.replace(game_url)
          };
 
          function set_properties(header_img, game_logo, description, game_name) {
