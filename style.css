@@ -4,6 +4,24 @@ body {
   color: white;
 }
 
+.text_area {
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 25%;
+  height:60%;
+  border: 3px solid #121212;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  text-align: center;
+}
+
+.text_area h1{
+  color: #E93030;
+}
+
 .main_game_page_body {
   width: 90.47619%;
   height: 100%;
@@ -22,12 +40,21 @@ body {
   position: absolute;
 }
 
+.coming_soon_body {
+  width: 90.47619%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
 
 .sidebar {
   width: 9.52381%;
   height: 100%;
   top: 0;
   left: 0;
+  text-align: center;
   position: absolute;
   background-color: #434343;
 }
@@ -87,13 +114,39 @@ body {
   position: absolute;
 }
 
+.selected_bar {
+  background-color: #007CFF;
+  top: 33%;
+  height: 1%;
+  width: 70%;
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.selected_bar_games {
+  background-color: #007CFF;
+  top: 33%;
+  height: 1%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.page_select {
+  top: 33.5%;
+  width: 71.95%;
+  position: relative;
+}
+
 .profile_pic_img {
   height: 100%;
   width: 100%;
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: 0
   position: relative;
 }
 
